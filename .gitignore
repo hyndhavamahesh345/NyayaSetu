@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Virtual Environment
+venv/
+env/
+.venv/
+.env
+
+# Streamlit
+.streamlit/
+
+# App Specific
+temp_audio/
+law_pdfs/*
+!law_pdfs/.gitkeep
+vector_store/*
+!vector_store/.gitkeep
+models/tts/*
+!models/tts/.gitkeep
+*.wav
+
+# Databases (if you want local changes to not be tracked)
+# mapping_db.sqlite
+# glossary_db.sqlite
+
+# Cache
+.rag_index_cache.json
+.pytest_cache/
+.coverage
+htmlcov/
